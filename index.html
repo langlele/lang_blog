@@ -1,9 +1,10 @@
 ---
-	layout: default
-	title: lang'Blog
+　　layout: default
+　　title: lang'Blog
 ---
 　　<h2>{{ page.title }}</h2>
-　　<p>最新文章123</p>
+　　<p>开启我的博客</p>
+	###欢迎光临lang'blog###
 　　<ul>
 　　　　{% for post in site.posts %}
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
