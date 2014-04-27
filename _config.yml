@@ -9,7 +9,7 @@ timezone:    nil
 
 future:      true
 show_drafts: nil
-limit_posts: 0
+limit_posts: 2
 pygments:    true
 
 relative_permalinks: true
