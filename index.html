@@ -1,9 +1,10 @@
 ---
 layout: default
-title: 郎乐乐的
+title: 我的路程
 ---
+
 <h2>{{ page.title }}</h2>
-<p>我的路程</p>
+<p>脚印</p>
 <ul>
 	{% for post in site.posts %}
 		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
