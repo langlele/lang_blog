@@ -1,11 +1,11 @@
 ---
-　　layout: default
-　　title: 郎乐乐的
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>我的路程</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+layout: default
+title: 郎乐乐的
+---
+<h2>{{ page.title }}</h2>
+<p>我的路程</p>
+<ul>
+	{% for post in site.posts %}
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
